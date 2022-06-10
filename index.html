@@ -1,12 +1,94 @@
 <html lang="en">
-<title>Привіт</title>
 
-<body>
+<head>
+    <title>Привіт</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        p {
+            color: blue;
+            font-size: 25px;
+        }
+
+        .niav {
+            color: brown;
+            font-size: 10px;
+        }
+
+        .hav {
+            color: chocolate;
+        }
+
+        .two {
+            background-color: darkturquoise;
+        }
+
+        .my-image {
+           background-repeat: no-repeat;
+           background-size: contain;
+           background-image: url('./Naruto_Uzumaki_\(3_in_1\).png'); 
+        }
+
+        .menu {
+            margin: 0;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 15px;
+            padding-right: 15PX;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 25px;
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            background-color: rgba(127, 255, 212, 0.406);
+        }
+
+        .menu-item {
+            text-decoration: none;
+            color: black;
+            padding: 15px 25px;
+        }
+
+        .menu-item:hover {
+            background-color: rgb(125, 204, 178);
+            border-radius: 10px;
+        }
+        
+    </style>
+</head>
+
+<body class="my-image">
+    <nav>
+        <ul class="menu">
+            <li>
+                <a class="menu-item" href="http://www.google.com">Головна</a>
+            </li>
+            <li>
+                <a class="menu-item" href="#це не гугл">Котики</a>
+            </li>
+            <li>
+                <a class="menu-item" href="#">Теги</a>
+            </li>
+            <li>
+                <a class="menu-item" href="#">Флекс</a>
+            </li>
+            <li>
+                <a class="menu-item" href="#">Контакти</a>
+            </li>
+        </ul>
+    </nav>
     <h1 style="color: blue; font-size: 30px;">Заголовок 1</h1>
     <h2 style="color: red">Welcome to hell!!!</h2>
-    <p>Няв!</p>
 
-    <ul>
+    <p class="niav two">Няв!</p>
+    <p class="hav two">Гав!</p>
+
+    <p>Няв!</p>
+    <p>Гав!</p>
+
+    <ul style="list-style-type: square;">
         <li>
             <p>Дівчата</p>
             <ol>
@@ -21,7 +103,7 @@
                 </li>
                 <li>
                     <p>Єва</p>
-                    
+
                 </li>
             </ol>
         </li>
@@ -35,9 +117,11 @@
 
 
 
-    
-    
-    <iframe width="642" height="361" src="https://www.youtube.com/embed/jH7e1fDcZnY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+    <iframe width="642" height="361" src="https://www.youtube.com/embed/jH7e1fDcZnY" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
 
 
 </body>
