@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    height: 100vh;
+}
+
+.niav {
+    color: brown;
+    font-size: 10px;
+}
+
+.hav {
+    color: chocolate;
+}
+
+.two {
+    background-color: darkturquoise;
+}
+
+.my-image {
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-image: url('./Naruto_Uzumaki_\(3_in_1\).png'); 
+}
+
+.menu {
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15PX;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(127, 255, 212, 0.406);
+}
+
+.menu-item {
+    text-decoration: none;
+    color: black;
+    padding: 15px 25px;
+}
+
+.menu-item:hover {
+    background-color: rgb(125, 204, 178);
+    border-radius: 10px;
+}
+
+.flex-container {
+    width: 80vw;
+    height: 80vh;
+    background-color: bisque;
+
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.flex-container p {
+    height: 100px;
+    width: 100px;
+}
+
+.green {
+    background-color: green;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
