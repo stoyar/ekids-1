@@ -49,6 +49,11 @@ body {
     border-radius: 10px;
 }
 
+.active {
+    background-color: rgb(153, 222, 199);
+    border-radius: 10px;
+}
+
 .flex-container {
     width: 80vw;
     height: 80vh;

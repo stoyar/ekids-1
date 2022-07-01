@@ -1,0 +1,33 @@
+.gallery {
+    display: flex;
+    width: 70%;
+    height: 300px;
+
+    overflow: hidden;
+
+    margin: 0 auto;
+
+    border: 2px solid rgb(238, 173, 173);
+}
+
+.gallery-image {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 300px;
+
+    background-color: blueviolet;
+}
+
+.gallery-image img {
+    width: 300px;
+}
+
+.first-image {
+    margin-left: -900px;
+}
+
+.controls {
+    width: fit-content;
+    margin: 0 auto;
+}
