@@ -126,6 +126,9 @@ main {
 
 .content-section img {
     display: block;
+    
+    width: 100%;
+    
     border-top-left-radius: 30px;
     border-bottom-right-radius: 30px;
 }
